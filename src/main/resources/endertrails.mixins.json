@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.kainaki.endertrails.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "EnderPearlEntityMixin",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

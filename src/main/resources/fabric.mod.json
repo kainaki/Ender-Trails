@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "endertrails",
+  "version": "${version}",
+  "name": "Ender Trails",
+  "description": "Beautiful trails for ender pearls",
+  "authors": ["Kainaki"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["net.kainaki.endertrails.EnderTrailsMod"]
+  },
+  "mixins": ["endertrails.mixins.json"],
+  "depends": {
+    "fabric-api": "*",
+    "minecraft": "1.20.1"
+  }
+}
